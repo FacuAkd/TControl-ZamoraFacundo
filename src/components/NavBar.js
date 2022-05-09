@@ -1,3 +1,5 @@
+import CardWidget from "./CardWidget";
+
 function NavBar() {
   return (    
     <div>
@@ -19,6 +21,9 @@ function NavBar() {
         <li class="nav-item">
           <a class="nav-link" href="#">Pagina2</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><CardWidget></CardWidget></a>
+        </li>
       </ul>
     </div>
   </div>
@@ -28,3 +33,4 @@ function NavBar() {
 }
 
 export default NavBar;
+
